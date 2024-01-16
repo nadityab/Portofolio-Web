@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portofolio Web Nurrahman Aditya B. (202110370311183)</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="container">
+        <div class="left-content p-30">
+          <div class="logo">
+            <a href="index.html">
+              <span>My</span>
+              <span>Portofolio</span>
+            </a>
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Education">Education</a></li>
+              <li><a href="#cv">Curriculum Vitae</a></li>
+              <li><a href="#hobby">Hobby</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="left-footer">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/nadityab/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/Nurrahman.aditya/"
+                    target="_blank"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/nadityab/" target="_blank"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="foot-contact">
+              <ul>
+                <li>dewaadit14@gmail.com</li>
+                <li>+62 851-5999-6969</li>
+              </ul>
+            </div>
+
+            <div class="copy-rights">
+              Copyright &copy;2023 All rights reserved
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="section1 p-30" id="Home">
+            <div class="sec-title">
+              <div class="pg-sub-title">Home</div>
+              <div class="pg-title"><strong>My Profile</strong></div>
+            </div>
+            <div class="d-flex-align-center">
+                <div class="d-flex-align-center">
+                    <div class="user-img" onclick="openAvaModal()">
+                      <img src="image/ava.jpeg" alt="Avatar" />
+                    </div>
+              <div class="user-profile flex-1">
+                <div class="pro-details">
+                  <div class="sm-text">HELLO EVERYBODY, I AM</div>
+                  <div class="name">Nurrahman Aditya Budyanto</div>
+                  <div class="role">Web Developer</div>
+                </div>
+                <div class="text">
+                  &nbsp;&nbsp;&nbsp;Saya adalah mahasiswa dari Universitas
+                  Muhammadiyah Malang, saya tertarik dengan Web Development dan
+                  juga Data Analyst, Saya sangat tertarik pada teknologi dan
+                  terus belajar dan berkembang di bidang ini dengan harapan
+                  dapat berkarir di bidang yang saya tekuni ini.<br><br>
+                </div>
+                <ul><li>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> &nbsp;23<sup
+                      >rd</sup
+                    >
+                    October, 2001
+                  </li>
+                
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    &nbsp;&nbsp;Jepara, Jawa Tengah
+                  </li></ul>
+              </div>
+            </div>
+          </div>
+          <div class="section2 p-30" id="Education">
+            <div class="sec-title">
+              <div class="pg-sub-title">Education</div>
+              <div class="pg-title"><strong>My Education</strong></div>
+            </div>
+            <div class="education-info">
+              <table>
+                <tr>
+                  <td>
+                    <strong
+                      ><a href="https://www.sman1jepara.sch.id/" target="_blank"
+                        >SMA Negeri 1 Jepara</a
+                      ></strong
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>MIPA</td>
+                </tr>
+                <tr>
+                  <td class="education-separator">2017 - 2020</td>
+                </tr>
+                <tr>
+                  <td><strong></strong></td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong
+                      ><a href="https://www.umm.ac.id/" target="_blank"
+                        >Universitas Muhammadiyah Malang</a
+                      ></strong
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Teknik Informatika</td>
+                </tr>
+                <tr>
+                  <td>2021 - Present</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="section3 p-30" id="cv">
+            <div class="sec-title">
+              <div class="pg-sub-title">Curriculum Vitae</div>
+              <div class="pg-title"><strong>My CV</strong></div>
+            </div>
+            <div class="cv-info" onclick="openCVModal()">
+              <img src="image/cv.jpg" alt="cv Image" />
+            </div>
+          </div>
+          <div class="section4 p-30" id="hobby">
+            <div class="sec-title">
+              <div class="pg-sub-title">Hobby</div>
+              <div class="pg-title"><strong>My Hobbies</strong></div>
+            </div>
+            <div class="hobby-info">
+                <img src="image/hobby2.jpg" alt="Hobby Image" onclick="openHobbyModal('hobby2.jpg')" />
+                <img src="image/hobbys.jpg" alt="Hobby Image" onclick="openHobbyModal('hobbys.jpg')" />
+                <img src="image/hobby.jpg" alt="Hobby Image" onclick="openHobbyModal('hobby.jpg')" />
+                
+              <p>
+                Saya adalah seseorang yang suka berpetualang dan mencoba hal baru, salah satunya mendaki. Foto di atas dipotret pada saat saya mendaki gunung Arjuno, salah satu gunung yang bisa dibilang tinggi di pulau Jawa. Fun-fact disaat ini adalah pertamakali saya mendaki gunung, memang cukup berat bagi pemula namun saya memberanikan diri dan sudah bertekad agar sampai puncak Gunung Arjuno, salah satu kisah tak terlupakan dalam hidup saya saat mendaki gunung ini.
+              </p>
+            </div>
+          </div>
+          <div class="section5 p-30" id="contact">
+            <div class="sec-title">
+              <div class="pg-sub-title">Contact</div>
+              <div class="pg-title"><strong>For bussiness & inquiries :</strong></div>
+            </div>
+            <div class="contact-info">
+                <div class="pr-list">
+                    <ul>
+                      
+                      <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        +62 851-5999-6969
+                      </li>
+                      <li>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        dewaadit14@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="social-icons-head">
+                    <ul>
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/nadityab/"
+                          target="_blank"
+                          ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/Nurrahman.aditya/"
+                          target="_blank"
+                          ><i class="fa fa-facebook" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/nadityab/"
+                          target="_blank"
+                          ><i class="fa fa-instagram" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+          <!-- Modal for ava.jpg -->
+          <div id="avaModal" class="modal" onclick="closeAvaModal()">
+            <img src="image/ava.jpeg" alt="Avatar" />
+          </div>
+          <!-- Modal for cv.jpg-->
+          <div id="CVModal" class="modal" onclick="closeCVModal()">
+            <img src="image/cv.jpg" alt="cv Image" />
+          </div>
+          <!-- Modal for Hobby Images -->
+<div id="hobbyModal" class="modal" onclick="closeHobbyModal()">
+    <img id="hobbyModalImage" src="" alt="Hobby Image" />
+  </div>
+  <!-- Modal for Contact -->
+<div id="contactModal" class="modal" onclick="closeContactModal()">
+    <!-- Add your contact form or any additional details here -->
+    <p>Contact Modal Content</p>
+  </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
